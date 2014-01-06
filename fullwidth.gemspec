@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Fullwidth::VERSION
   spec.authors       = ["John Hawthorn"]
   spec.email         = ["john.hawthorn@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Convert ASCII to equivalent ｆｕｌｌｗｉｄｔｈ characters.}
+  spec.description   = %q{Convert ASCII to equivalent ｆｕｌｌｗｉｄｔｈ characters.}
   spec.homepage      = ""
   spec.license       = "MIT"
 

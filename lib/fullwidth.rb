@@ -1,5 +1,3 @@
 require "fullwidth/version"
+require "fullwidth/string_ext"
 
-module Fullwidth
-  # Your code goes here...
-end
