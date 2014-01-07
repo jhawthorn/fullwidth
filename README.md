@@ -1,6 +1,6 @@
 # Fullwidth
 
-TODO: Write a gem description
+Convert ASCII to equivalent ｆｕｌｌｗｉｄｔｈ characters.
 
 ## Installation
 
@@ -18,7 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+``` ruby
+"foobar".to_fullwidth        # => "ｆｏｏｂａｒ"
+"hello, world.".to_fullwidth # => "ｈｅｌｌｏ，　ｗｏｒｌｄ．"
+"鋸".to_fullwidth            # => "鋸"
+```
 
 ## Contributing
 
