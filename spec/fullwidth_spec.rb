@@ -1,3 +1,5 @@
+# Encoding: utf-8
+
 require 'spec_helper'
 
 describe ".to_fullwidth" do
