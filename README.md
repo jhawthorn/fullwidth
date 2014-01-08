@@ -26,7 +26,7 @@ Or install it yourself as:
 "hello, world.".to_fullwidth # => "ｈｅｌｌｏ，　ｗｏｒｌｄ．"
 
 # Katakana
-"ﾊﾛｰﾜｰﾙド"                   # => "ハローワールド"
+"ﾊﾛｰﾜｰﾙド".to_fullwidth       # => "ハローワールド"
 
 # Other characters are unchanged
 "鋸".to_fullwidth            # => "鋸"
