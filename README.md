@@ -22,6 +22,7 @@ Or install it yourself as:
 "foobar".to_fullwidth        # => "ｆｏｏｂａｒ"
 "hello, world.".to_fullwidth # => "ｈｅｌｌｏ，　ｗｏｒｌｄ．"
 "鋸".to_fullwidth            # => "鋸"
+"ﾊﾛｰﾜｰﾙド"                   # => "ハローワールド"
 ```
 
 ## Contributing
