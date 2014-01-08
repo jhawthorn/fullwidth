@@ -19,10 +19,17 @@ Or install it yourself as:
 ## Usage
 
 ``` ruby
+# Letters
 "foobar".to_fullwidth        # => "ｆｏｏｂａｒ"
+
+# Punctuation and spaces
 "hello, world.".to_fullwidth # => "ｈｅｌｌｏ，　ｗｏｒｌｄ．"
-"鋸".to_fullwidth            # => "鋸"
+
+# Katakana
 "ﾊﾛｰﾜｰﾙド"                   # => "ハローワールド"
+
+# Other characters are unchanged
+"鋸".to_fullwidth            # => "鋸"
 ```
 
 ## Contributing
