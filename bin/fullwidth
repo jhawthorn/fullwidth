@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+require 'fullwidth'
+
+def input_string
+  if ARGV.length > 0
+    ARGV.join(' ')
+  else
+    STDIN.read
+  end
+end
+
+puts input_string.to_fullwidth
